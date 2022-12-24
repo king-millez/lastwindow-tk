@@ -1,10 +1,16 @@
 # Last Window ROM Toolkit
 
-Scripts to work with the files inside the ROM for Last Window: The Secret of Cape West.
+A Go package to work with the files inside the ROM for Last Window: The Secret of Cape West.
+
+## Usage
+
+You can run this through `go` with `go run src/lastwindow-tk/main.go`
+
+Or you can build the package with `go build -o lastwindow-tk src/lastwindow-tk/main.go` and run the compiled binary. 
 
 ## Supported Files
 
-- Pack (.pack) - these are custom `zlib` archives that can be extracted to a folder using `python3 unpack.py <input.pack> <output dir>`
+- Pack (.pack) - these are custom `zlib` archives that can be extracted to a folder using `lastwindow-tk packfile <input.pack> <output dir>`
 
 ## Todo
 
